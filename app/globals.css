@@ -68,9 +68,7 @@ h1 {
   background: #1f2123;
 }
 
-.search img {
-  width: 35px;
-  height: 35px;
+.search Image {
   cursor: pointer;
 }
 
@@ -140,6 +138,7 @@ h1 {
 .movie:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
   transform: scale(1.05, 1.05);
+  cursor: pointer
 }
 
 .movie div:nth-of-type(2) {
@@ -147,7 +146,7 @@ h1 {
   height: 100%;
 }
 
-.movie div:nth-of-type(2) img {
+.movie div:nth-of-type(2) .img {
   height: 100%;
   width: 100%;
 }
